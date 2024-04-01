@@ -34,7 +34,7 @@
 // let titlecap=function (arr) {
 //     let resultArray=[];
 //   for (let i = 0; i < arr.length; i++) {
-//     let splited = arr[i].split(" ");
+//     let splited = arr[i].toLowerCase().split(" ");
 //     for (let a = 0; a < splited.length; a++) {
 //       let uppercase = splited[a][0].toUpperCase();
 //       let newString = splited[a].slice(1);
@@ -44,14 +44,14 @@
 //   }
 //   return resultArray;
 // }
-// console.log(titlecap(["hi", "hello", "there is a man","a"]));
+// console.log(titlecap(["hi", "heLlo", "there is a man","a"]));
 
 // //IFFE function
 
 // (function(arr) {
 //     let resultArray = [];
 //     for (let i = 0; i < arr.length; i++) {
-//         let splited = arr[i].split(" ");
+//          let splited = arr[i].toLowerCase().split(" ");
 //         for (let a = 0; a < splited.length; a++) {
 //             let uppercase = splited[a][0].toUpperCase();
 //             let newString = splited[a].slice(1);
@@ -275,7 +275,7 @@
 // ((arr) => {
 //     let resultArray = [];
 //     for (let i = 0; i < arr.length; i++) {
-//         let splited = arr[i].split(" ");
+//          let splited = arr[i].toLowerCase().split(" ");
 //         for (let a = 0; a < splited.length; a++) {
 //             let uppercase = splited[a][0].toUpperCase();
 //             let newString = splited[a].slice(1);
